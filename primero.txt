@@ -1,0 +1,30 @@
+              3 dirs  267.169.984.512 bytes libres
+
+D:\egg>cd fullstack
+
+D:\egg\fullstack>ls
+"ls" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+D:\egg\fullstack>cd primero
+
+D:\egg\fullstack\primero>d:
+
+D:\egg\fullstack\primero>cd D:\egg\fullstack\otro
+
+D:\egg\fullstack\otro>cd ..
+
+D:\egg\fullstack>cd primero
+
+D:\egg\fullstack\primero>git remote add origin https://github.com/lguevarafs/eegprimero.git
+
+D:\egg\fullstack\primero>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/lguevarafs/eegprimero.git'
+
+D:\egg\fullstack\primero>git branch -M main
+
+D:\egg\fullstack\primero>git remote add origin https://github.com/lguevarafs/eegprimero.git
+error: remote origin already exists.
+
+D:\egg\fullstack\primero>git branch -M main
